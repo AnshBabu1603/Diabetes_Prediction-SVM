@@ -8,7 +8,7 @@ app = FastAPI()
 
 # Add CORS middleware here
 origins = [
-    "https://diabetespredictor-ruby.vercel.app/",  # your frontend domain
+    "https://diabetespredictor-ruby.vercel.app",  # your frontend domain
     # you can add other allowed origins or use ["*"] to allow all
 ]
 
